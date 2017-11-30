@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <style>
+      td{
+        width:100px;
+        height: 100px;
+        background-color:cyan;
+        color:white;
+      }
+      .container{
+        margin:0 auto;
+        width:300px;position: relative;
+        top:150px;
+      }
+      button{
+
+        display: block;
+        margin: 0 auto;
+        background-color: chocolate;
+        color: white;
+        border: none;
+        font-size: 20px;
+        padding: 8px 30px;
+        cursor:pointer;
+
+      }
+      .active{
+   background-color:green;
+   color:white;
+
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td style="background-color:white;color:black;" ><button id="yo" type="button">X</button></td>
+          <td style="background-color:white;"></td>
+          <td style="background-color:white;color:black;"><button id="ho" type="button">O</button></td>
+        </tr>
+      </table>
+
+    </div>
+    <script type="text/javascript" src="action.js">
+
+    </script>
+  </body>
+</html>
